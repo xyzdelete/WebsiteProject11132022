@@ -52,14 +52,13 @@ body {
     color: #2e3440;
 }
 
-.test {
-    background-color: #81a1c1;
-    /* width: 1000px; */
-    /* max-width: 1000px; */
+.hero {
+    max-width: 130rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
-    max-width: 50rem;
-    padding: 4rem;
-    font-size: 2rem;
-    color: #d8dee9;
-    /* 1 rem = 16px -> 800*/
+.hero-img {
+    width: 100%;
 }
