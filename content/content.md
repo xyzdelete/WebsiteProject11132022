@@ -53,19 +53,19 @@ Kid-friendly
 
 Meal 1: Japanese Gyozas
 
-- Category: Vegetarian
-- Calories: 650
-- NutriScore (Registered): 74
-- Average rating: 4.9
-- Number reviews: 537
+-   Category: Vegetarian
+-   Calories: 650
+-   NutriScore (Registered): 74
+-   Average rating: 4.9
+-   Number reviews: 537
 
 Meal 2: Avocado Salad
 
-- Category: Vegan and Paleo
-- Calories: 400
-- NutriScore (Registered): 92
-- Average rating: 4.8
-- Number reviews: 441
+-   Category: Vegan and Paleo
+-   Calories: 400
+-   NutriScore (Registered): 92
+-   Average rating: 4.8
+-   Number reviews: 441
 
 ### We offer a free sample meal
 
@@ -79,16 +79,16 @@ Prices include all applicable taxes. Users can cancel at any time.
 
 Starter: $399 per month
 
-- 1 meal per day
-- Order times are between 11am and 9pm
-- Delivery is free
+-   1 meal per day
+-   Order times are between 11am and 9pm
+-   Delivery is free
 
 Complete: $649 per month
 
-- 2 meal2 per day
-- Order 24/7
-- Delivery is free
-- Get access to latest recipes
+-   2 meal2 per day
+-   Order 24/7
+-   Delivery is free
+-   Get access to latest recipes
 
 ### Photo gallery
 
@@ -126,3 +126,17 @@ Careers
 Recipe directory
 Help center
 Privacy & terms
+
+######
+
+## Sections
+
+-   Logo + Navigation
+-   Hero
+-   Featured in
+-   How it works
+-   Meals (and list of diets)
+-   Testimonials + gallery
+-   Pricing + features
+-   CTA
+-   Footer
