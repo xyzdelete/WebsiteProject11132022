@@ -6,7 +6,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #faf3f1;
+    background-color: #f6e7e2;
 
     /* Because we want header to be sticky later*/
     height: 9.6rem;
@@ -60,7 +60,7 @@
 /* HERO SECTION */
 /******************************/
 .section-hero {
-    background-color: #faf3f1;
+    background-color: #f6e7e2;
     padding: 4.8rem 0 9.6rem 0;
 }
 
@@ -100,7 +100,7 @@
     width: 4.8rem;
     border-radius: 50%;
     margin-right: -1.6rem;
-    border: 2px solid #faf3f1;
+    border: 2px solid #f6e7e2;
 }
 
 .delivered-imgs img:last-child {
@@ -193,7 +193,7 @@
     /* 60% of parent's width */
     padding-bottom: 60%;
 
-    background-color: #faf3f1;
+    background-color: #f6e7e2;
 
     z-index: -2;
 }
@@ -201,7 +201,7 @@
 .step-img-box::after {
     width: 45%;
     padding-bottom: 45%;
-    background-color: #f6e7e2;
+    background-color: #f1dbd4;
     z-index: -1;
 }
 
@@ -300,7 +300,7 @@
 /******************************/
 
 .section-testimonials {
-    background-color: #faf3f1;
+    background-color: #f6e7e2;
     display: grid;
     grid-template-columns: 55fr 45fr;
     align-items: center;
@@ -361,6 +361,39 @@
 
 .section-pricing {
     padding: 9.6rem 0;
+}
+
+.pricing-plan {
+    border-radius: 11px;
+
+    width: 75%;
+}
+
+.pricing-plan--starter {
+    justify-self: end;
+    border: 2px solid #f6e7e2;
+    padding: 4.6rem;
+}
+
+.pricing-plan--complete {
+    background-color: #f6e7e2;
+    padding: 4.8rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.pricing-plan--complete::after {
+    content: "Best value";
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 700;
+    top: 6%;
+    right: -16%;
+    background-color: #ebcb8b;
+    padding: 0.8rem 6.4rem;
+    color: #2e3440;
+    transform: rotate(45deg);
 }
 
 .plan-header {
