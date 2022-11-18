@@ -477,8 +477,6 @@
 
     background-image: linear-gradient(to right bottom, #d08770, #f1dbd4);
 
-    /* temp */
-    height: 50rem;
     overflow: hidden;
 }
 
@@ -488,7 +486,7 @@
 }
 
 .cta .heading-secondary {
-    color: #2e3440;
+    color: inherit;
     margin-bottom: 3.2rem;
 }
 
@@ -510,4 +508,32 @@
     grid-template-columns: 1fr 1fr;
     column-gap: 3.2rem;
     row-gap: 2.4rem;
+}
+
+.cta-form label {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 1.2rem;
+}
+.cta-form input,
+.cta-form select {
+    color: inherit;
+    width: 100%;
+    padding: 1.2rem;
+    font-size: 1.8rem;
+    font-family: inherit;
+    border: none;
+    background-color: #f6e7e2;
+    border-radius: 9px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.cta-form input::placeholder {
+    color: #82858c;
+}
+
+.cta *:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.8rem rgba(246, 231, 226, 0.5);
 }

@@ -150,7 +150,17 @@ body {
     margin-bottom: 1.6rem;
     letter-spacing: 0.75px;
 }
-
+.btn {
+    color: #2e3440;
+    padding: 1.6rem 3.2rem;
+    border-radius: 9px;
+    font-size: 2rem;
+    font-weight: 600;
+    transition: all 0.3s;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+}
 .btn:link,
 .btn:visited {
     display: inline-block;
@@ -209,6 +219,17 @@ body {
     border-bottom: 1px solid transparent;
 }
 
+.btn--form {
+    background-color: #d08770;
+    color: #eceff4;
+    align-self: end;
+    padding: 1.2rem;
+}
+
+.btn--form:hover {
+    background-color: #bb7a65;
+}
+
 .list {
     list-style: none;
     display: flex;
@@ -227,6 +248,12 @@ body {
     width: 3rem;
     height: 3rem;
     fill: #bb7a65;
+}
+
+*:focus {
+    outline: none;
+    outline: 4px dotted #bb7a65;
+    outline-offset: 8px;
 }
 
 /* HELPER/SETTINGS CLASSES */
