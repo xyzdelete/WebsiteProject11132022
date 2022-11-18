@@ -25,8 +25,8 @@ Paragraph default: 1.6
 
 - Primary: #D08770
 - Tints:
-#faf3f1
 #f6e7e2
+#f1dbd4
 
 - Shades: #bb7a65
 - Accents:
@@ -36,6 +36,8 @@ Paragraph default: 1.6
 
 
 --- 05 SHADOWS
+
+0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
 
 --- 06 BORDER-RADIUS
 Default: 9px

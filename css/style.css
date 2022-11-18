@@ -433,3 +433,61 @@
     line-height: 1.6;
     color: #686a70;
 }
+
+.plan-details {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.feature-icon {
+    color: #d08770;
+    height: 3.2rem;
+    width: 3.2rem;
+    margin-bottom: 3.2rem;
+    background-color: #f1dbd4;
+    padding: 1.6rem;
+    border-radius: 50%;
+}
+.feature-title {
+    font-size: 2.4rem;
+    color: #2e3440;
+    font-weight: 700;
+    margin-bottom: 1.6rem;
+}
+.feature-text {
+    font-size: 1.8rem;
+    line-height: 1.8;
+}
+
+/******************************/
+/* CTA SECTION */
+/******************************/
+
+.section-cta {
+    padding: 9.6rem 0;
+}
+
+.cta {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    /* background-color: #d08770; */
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.2);
+    border-radius: 11px;
+
+    background-image: linear-gradient(to right bottom, #d08770, #f1dbd4);
+
+    /* temp */
+    height: 50rem;
+    overflow: hidden;
+}
+
+.cta-text-box {
+}
+
+.cta-img-box {
+    background-image: linear-gradient(to right bottom, #d0867010, #d4dcf160),
+        url("../img/eating.jpg");
+    background-size: cover;
+    background-position: center;
+}
