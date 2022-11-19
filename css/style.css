@@ -11,6 +11,7 @@
     /* Because we want header to be sticky later*/
     height: 9.6rem;
     padding: 0 4.8rem;
+    position: relative;
 }
 
 .logo {
@@ -25,7 +26,7 @@
     list-style: none;
     display: flex;
     align-items: center;
-    gap: 3.2rem;
+    gap: 4.8rem;
 }
 
 .main-nav-link:link,
@@ -54,6 +55,25 @@
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
     background-color: #bb7a65;
+}
+
+/* MOBILE */
+.btn-mobile-nav {
+    border: none;
+    background-color: #f6e7e2;
+    cursor: pointer;
+
+    display: none;
+}
+
+.icon-mobile-nav {
+    height: 4.8rem;
+    width: 4.8rem;
+    color: #2e3440;
+}
+
+.icon-mobile-nav[name="close"] {
+    display: none;
 }
 
 /******************************/
@@ -471,6 +491,8 @@
 
 .cta {
     display: grid;
+
+    /* 2 / 3 = 66.6% + 33.3% */
     grid-template-columns: 2fr 1fr;
     /* background-color: #d08770; */
     box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.2);
