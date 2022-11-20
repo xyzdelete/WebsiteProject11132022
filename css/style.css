@@ -58,9 +58,18 @@
 }
 
 /* MOBILE */
+
+.sticky .btn-mobile-nav {
+    background-color: rgba(255, 255, 255, 0) !important;
+}
+
+.nav-open .btn-mobile-nav {
+    background-color: rgba(255, 255, 255, 0) !important;
+}
+
 .btn-mobile-nav {
     border: none;
-    background-color: #f6e7e2;
+    background-color: rgba(255, 255, 255, 0);
     cursor: pointer;
 
     display: none;
@@ -92,7 +101,7 @@
     box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
 }
 
-.sticky .section-hero {
+sticky .section-hero {
     margin-top: 9.6rem;
 }
 
