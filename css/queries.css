@@ -122,6 +122,7 @@ rem and em do NOT depend on thml font-size in media queries! Instead, 1rem = 1 e
     /* MOBILE NAVIGATION */
     .btn-mobile-nav {
         display: block;
+        z-index: 9999;
     }
 
     .main-nav {
