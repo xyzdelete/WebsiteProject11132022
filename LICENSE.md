@@ -1,2 +1,1 @@
-
-Copyright (C) 2022 Arturs
+Copyright (C) 2022 Arturs Anikins
